@@ -1,15 +1,12 @@
-//
-//  AppDelegate.h
-//  Demo2ObjectiveDDP
-//
-//  Created by Victor Carreño on 7/10/14.
-//  Copyright (c) 2014 Victor Carreño. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+
+@class ViewController, MeteorClient;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navController;
+@property (strong, nonatomic) MeteorClient *meteorClient;
 
 @end

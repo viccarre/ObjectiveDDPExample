@@ -9,7 +9,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Demo2ObjectiveDDP/CreateAccountViewController.m"
+            filePath = "ObjectiveDDPExample/CreateAccountViewController.m"
             timestampString = "427394749.109681"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"

@@ -49,19 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B4F0DD8196EDE1000DA8874 /* Demo2ObjectiveDDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo2ObjectiveDDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4F0DD8196EDE1000DA8874 /* ObjectiveDDPExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveDDPExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4F0DDB196EDE1000DA8874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B4F0DDD196EDE1000DA8874 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B4F0DDF196EDE1000DA8874 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5B4F0DE3196EDE1000DA8874 /* Demo2ObjectiveDDP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo2ObjectiveDDP-Info.plist"; sourceTree = "<group>"; };
+		5B4F0DE3196EDE1000DA8874 /* Demo2ObjectiveDDP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Demo2ObjectiveDDP-Info.plist"; path = "../ObjectiveDDPExample/Demo2ObjectiveDDP-Info.plist"; sourceTree = "<group>"; };
 		5B4F0DE5196EDE1000DA8874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B4F0DE7196EDE1000DA8874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B4F0DE9196EDE1000DA8874 /* Demo2ObjectiveDDP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo2ObjectiveDDP-Prefix.pch"; sourceTree = "<group>"; };
-		5B4F0DEA196EDE1000DA8874 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5B4F0DEB196EDE1000DA8874 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B4F0DE7196EDE1000DA8874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../ObjectiveDDPExample/main.m; sourceTree = "<group>"; };
+		5B4F0DE9196EDE1000DA8874 /* ObjectiveDDP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ObjectiveDDP-Prefix.pch"; path = "../ObjectiveDDP/ObjectiveDDP-Prefix.pch"; sourceTree = "<group>"; };
+		5B4F0DEA196EDE1000DA8874 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../ObjectiveDDPExample/AppDelegate.h; sourceTree = "<group>"; };
+		5B4F0DEB196EDE1000DA8874 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../ObjectiveDDP Login:Signup Example/ObjectiveDDPExample/AppDelegate.m"; sourceTree = "<group>"; };
 		5B4F0DEE196EDE1000DA8874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B4F0DF3196EDE1000DA8874 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5B4F0DF9196EDE1000DA8874 /* Demo2ObjectiveDDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo2ObjectiveDDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4F0DF3196EDE1000DA8874 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../ObjectiveDDPExample/Images.xcassets; sourceTree = "<group>"; };
+		5B4F0DF9196EDE1000DA8874 /* ObjectiveDDPExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveDDPExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4F0DFA196EDE1000DA8874 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5B4F0E02196EDE1000DA8874 /* Demo2ObjectiveDDPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo2ObjectiveDDPTests-Info.plist"; sourceTree = "<group>"; };
 		5B4F0E04196EDE1000DA8874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 		5B4F0E7B196EEAA200DA8874 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		5B4F0E7D196EEAAB00DA8874 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5B4F0E7F196EEAB300DA8874 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		5B4F0E81196F031300DA8874 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		5B4F0E82196F031300DA8874 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5B4F0E81196F031300DA8874 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../ObjectiveDDPExample/LoginViewController.h; sourceTree = "<group>"; };
+		5B4F0E82196F031300DA8874 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../ObjectiveDDPExample/LoginViewController.m; sourceTree = "<group>"; };
 		5BDD28BD19771BD2004939B9 /* BSONIdGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSONIdGenerator.h; sourceTree = "<group>"; };
 		5BDD28BE19771BD2004939B9 /* BSONIdGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSONIdGenerator.m; sourceTree = "<group>"; };
 		5BDD28BF19771BD2004939B9 /* DependencyProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DependencyProvider.h; sourceTree = "<group>"; };
@@ -167,8 +167,8 @@
 		5BDD291D19771BD2004939B9 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
 		5BDD291E19771BD2004939B9 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
 		5BDD291F19771BD2004939B9 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
-		5BDD292B1977220D004939B9 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
-		5BDD292C1977220D004939B9 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		5BDD292B1977220D004939B9 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateAccountViewController.h; path = ../ObjectiveDDPExample/CreateAccountViewController.h; sourceTree = "<group>"; };
+		5BDD292C1977220D004939B9 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateAccountViewController.m; path = ../ObjectiveDDPExample/CreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +204,7 @@
 			children = (
 				5BDD28BC19771BD2004939B9 /* ObjectiveDDP */,
 				5BDD291919771BD2004939B9 /* SocketRocket */,
-				5B4F0DE1196EDE1000DA8874 /* Demo2ObjectiveDDP */,
+				5B4F0DE1196EDE1000DA8874 /* ObjectiveDDPExample */,
 				5B4F0E00196EDE1000DA8874 /* Demo2ObjectiveDDPTests */,
 				5B4F0DDA196EDE1000DA8874 /* Frameworks */,
 				5B4F0DD9196EDE1000DA8874 /* Products */,
@@ -214,8 +214,8 @@
 		5B4F0DD9196EDE1000DA8874 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B4F0DD8196EDE1000DA8874 /* Demo2ObjectiveDDP.app */,
-				5B4F0DF9196EDE1000DA8874 /* Demo2ObjectiveDDPTests.xctest */,
+				5B4F0DD8196EDE1000DA8874 /* ObjectiveDDPExample.app */,
+				5B4F0DF9196EDE1000DA8874 /* ObjectiveDDPExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B4F0DE1196EDE1000DA8874 /* Demo2ObjectiveDDP */ = {
+		5B4F0DE1196EDE1000DA8874 /* ObjectiveDDPExample */ = {
 			isa = PBXGroup;
 			children = (
 				5B4F0DED196EDE1000DA8874 /* Main.storyboard */,
@@ -247,6 +247,7 @@
 				5B4F0DF3196EDE1000DA8874 /* Images.xcassets */,
 				5B4F0DE2196EDE1000DA8874 /* Supporting Files */,
 			);
+			name = ObjectiveDDPExample;
 			path = Demo2ObjectiveDDP;
 			sourceTree = "<group>";
 		};
@@ -256,7 +257,7 @@
 				5B4F0DE3196EDE1000DA8874 /* Demo2ObjectiveDDP-Info.plist */,
 				5B4F0DE4196EDE1000DA8874 /* InfoPlist.strings */,
 				5B4F0DE7196EDE1000DA8874 /* main.m */,
-				5B4F0DE9196EDE1000DA8874 /* Demo2ObjectiveDDP-Prefix.pch */,
+				5B4F0DE9196EDE1000DA8874 /* ObjectiveDDP-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -408,9 +409,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B4F0DD7196EDE1000DA8874 /* Demo2ObjectiveDDP */ = {
+		5B4F0DD7196EDE1000DA8874 /* ObjectiveDDPExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B4F0E0A196EDE1000DA8874 /* Build configuration list for PBXNativeTarget "Demo2ObjectiveDDP" */;
+			buildConfigurationList = 5B4F0E0A196EDE1000DA8874 /* Build configuration list for PBXNativeTarget "ObjectiveDDPExample" */;
 			buildPhases = (
 				5B4F0DD4196EDE1000DA8874 /* Sources */,
 				5B4F0DD5196EDE1000DA8874 /* Frameworks */,
@@ -420,14 +421,14 @@
 			);
 			dependencies = (
 			);
-			name = Demo2ObjectiveDDP;
+			name = ObjectiveDDPExample;
 			productName = Demo2ObjectiveDDP;
-			productReference = 5B4F0DD8196EDE1000DA8874 /* Demo2ObjectiveDDP.app */;
+			productReference = 5B4F0DD8196EDE1000DA8874 /* ObjectiveDDPExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B4F0DF8196EDE1000DA8874 /* Demo2ObjectiveDDPTests */ = {
+		5B4F0DF8196EDE1000DA8874 /* ObjectiveDDPExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B4F0E0D196EDE1000DA8874 /* Build configuration list for PBXNativeTarget "Demo2ObjectiveDDPTests" */;
+			buildConfigurationList = 5B4F0E0D196EDE1000DA8874 /* Build configuration list for PBXNativeTarget "ObjectiveDDPExampleTests" */;
 			buildPhases = (
 				5B4F0DF5196EDE1000DA8874 /* Sources */,
 				5B4F0DF6196EDE1000DA8874 /* Frameworks */,
@@ -438,9 +439,9 @@
 			dependencies = (
 				5B4F0DFF196EDE1000DA8874 /* PBXTargetDependency */,
 			);
-			name = Demo2ObjectiveDDPTests;
+			name = ObjectiveDDPExampleTests;
 			productName = Demo2ObjectiveDDPTests;
-			productReference = 5B4F0DF9196EDE1000DA8874 /* Demo2ObjectiveDDPTests.xctest */;
+			productReference = 5B4F0DF9196EDE1000DA8874 /* ObjectiveDDPExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -457,7 +458,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B4F0DD3196EDE1000DA8874 /* Build configuration list for PBXProject "Demo2ObjectiveDDP" */;
+			buildConfigurationList = 5B4F0DD3196EDE1000DA8874 /* Build configuration list for PBXProject "ObjectiveDDPExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -470,8 +471,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B4F0DD7196EDE1000DA8874 /* Demo2ObjectiveDDP */,
-				5B4F0DF8196EDE1000DA8874 /* Demo2ObjectiveDDPTests */,
+				5B4F0DD7196EDE1000DA8874 /* ObjectiveDDPExample */,
+				5B4F0DF8196EDE1000DA8874 /* ObjectiveDDPExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -532,7 +533,7 @@
 /* Begin PBXTargetDependency section */
 		5B4F0DFF196EDE1000DA8874 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B4F0DD7196EDE1000DA8874 /* Demo2ObjectiveDDP */;
+			target = 5B4F0DD7196EDE1000DA8874 /* ObjectiveDDPExample */;
 			targetProxy = 5B4F0DFE196EDE1000DA8874 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -544,6 +545,7 @@
 				5B4F0DE5196EDE1000DA8874 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ../ObjectiveDDPExample;
 			sourceTree = "<group>";
 		};
 		5B4F0DED196EDE1000DA8874 /* Main.storyboard */ = {
@@ -552,6 +554,7 @@
 				5B4F0DEE196EDE1000DA8874 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../ObjectiveDDPExample;
 			sourceTree = "<group>";
 		};
 		5B4F0E03196EDE1000DA8874 /* InfoPlist.strings */ = {
@@ -647,9 +650,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Demo2ObjectiveDDP/Demo2ObjectiveDDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjectiveDDPExample/Demo2ObjectiveDDP-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = "Demo2ObjectiveDDP/Demo2ObjectiveDDP-Info.plist";
+				INFOPLIST_FILE = "ObjectiveDDPExample/Demo2ObjectiveDDP-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -671,9 +674,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Demo2ObjectiveDDP/Demo2ObjectiveDDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjectiveDDPExample/Demo2ObjectiveDDP-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = "Demo2ObjectiveDDP/Demo2ObjectiveDDP-Info.plist";
+				INFOPLIST_FILE = "ObjectiveDDPExample/Demo2ObjectiveDDP-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -694,7 +697,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Demo2ObjectiveDDP/Demo2ObjectiveDDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjectiveDDPExample/Demo2ObjectiveDDP-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -716,7 +719,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Demo2ObjectiveDDP/Demo2ObjectiveDDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjectiveDDPExample/Demo2ObjectiveDDP-Prefix.pch";
 				INFOPLIST_FILE = "Demo2ObjectiveDDPTests/Demo2ObjectiveDDPTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -727,7 +730,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B4F0DD3196EDE1000DA8874 /* Build configuration list for PBXProject "Demo2ObjectiveDDP" */ = {
+		5B4F0DD3196EDE1000DA8874 /* Build configuration list for PBXProject "ObjectiveDDPExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B4F0E08196EDE1000DA8874 /* Debug */,
@@ -736,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B4F0E0A196EDE1000DA8874 /* Build configuration list for PBXNativeTarget "Demo2ObjectiveDDP" */ = {
+		5B4F0E0A196EDE1000DA8874 /* Build configuration list for PBXNativeTarget "ObjectiveDDPExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B4F0E0B196EDE1000DA8874 /* Debug */,
@@ -745,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B4F0E0D196EDE1000DA8874 /* Build configuration list for PBXNativeTarget "Demo2ObjectiveDDPTests" */ = {
+		5B4F0E0D196EDE1000DA8874 /* Build configuration list for PBXNativeTarget "ObjectiveDDPExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B4F0E0E196EDE1000DA8874 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Demo2ObjectiveDDP.xcodeproj">
+      location = "self:ObjectiveDDPExample.xcodeproj">
    </FileRef>
 </Workspace>

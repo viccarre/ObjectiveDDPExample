@@ -1,6 +1,4 @@
-//
-//  Demo2ObjectiveDDPTests.m
-//  Demo2ObjectiveDDPTests
+
 //
 //  Created by Victor Carreño on 7/10/14.
 //  Copyright (c) 2014 Victor Carreño. All rights reserved.

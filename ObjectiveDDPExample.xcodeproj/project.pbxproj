@@ -53,10 +53,10 @@
 		5B4F0DDB196EDE1000DA8874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B4F0DDD196EDE1000DA8874 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B4F0DDF196EDE1000DA8874 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5B4F0DE3196EDE1000DA8874 /* Demo2ObjectiveDDP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Demo2ObjectiveDDP-Info.plist"; path = "../ObjectiveDDPExample/Demo2ObjectiveDDP-Info.plist"; sourceTree = "<group>"; };
+		5B4F0DE3196EDE1000DA8874 /* ObjectiveDDPExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ObjectiveDDPExample-Info.plist"; path = "../ObjectiveDDPExample/ObjectiveDDPExample-Info.plist"; sourceTree = "<group>"; };
 		5B4F0DE5196EDE1000DA8874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4F0DE7196EDE1000DA8874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../ObjectiveDDPExample/main.m; sourceTree = "<group>"; };
-		5B4F0DE9196EDE1000DA8874 /* ObjectiveDDP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ObjectiveDDP-Prefix.pch"; path = "../ObjectiveDDP/ObjectiveDDP-Prefix.pch"; sourceTree = "<group>"; };
+		5B4F0DE9196EDE1000DA8874 /* ObjectiveDDPExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ObjectiveDDPExample-Prefix.pch"; path = "../ObjectiveDDPExample/ObjectiveDDPExample-Prefix.pch"; sourceTree = "<group>"; };
 		5B4F0DEA196EDE1000DA8874 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../ObjectiveDDPExample/AppDelegate.h; sourceTree = "<group>"; };
 		5B4F0DEB196EDE1000DA8874 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../ObjectiveDDP Login:Signup Example/ObjectiveDDPExample/AppDelegate.m"; sourceTree = "<group>"; };
 		5B4F0DEE196EDE1000DA8874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -254,10 +254,10 @@
 		5B4F0DE2196EDE1000DA8874 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B4F0DE3196EDE1000DA8874 /* Demo2ObjectiveDDP-Info.plist */,
+				5B4F0DE3196EDE1000DA8874 /* ObjectiveDDPExample-Info.plist */,
 				5B4F0DE4196EDE1000DA8874 /* InfoPlist.strings */,
 				5B4F0DE7196EDE1000DA8874 /* main.m */,
-				5B4F0DE9196EDE1000DA8874 /* ObjectiveDDP-Prefix.pch */,
+				5B4F0DE9196EDE1000DA8874 /* ObjectiveDDPExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -650,9 +650,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ObjectiveDDPExample/Demo2ObjectiveDDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjectiveDDPExample/ObjectiveDDPExample-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = "ObjectiveDDPExample/Demo2ObjectiveDDP-Info.plist";
+				INFOPLIST_FILE = "ObjectiveDDPExample/ObjectiveDDPExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -674,9 +674,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ObjectiveDDPExample/Demo2ObjectiveDDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjectiveDDPExample/ObjectiveDDPExample-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = "ObjectiveDDPExample/Demo2ObjectiveDDP-Info.plist";
+				INFOPLIST_FILE = "ObjectiveDDPExample/ObjectiveDDPExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -697,7 +697,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ObjectiveDDPExample/Demo2ObjectiveDDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjectiveDDPExample/ObjectiveDDPExample-Info.plist";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -719,7 +719,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ObjectiveDDPExample/Demo2ObjectiveDDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjectiveDDPExample/ObjectiveDDPExample-Info.plist";
 				INFOPLIST_FILE = "Demo2ObjectiveDDPTests/Demo2ObjectiveDDPTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

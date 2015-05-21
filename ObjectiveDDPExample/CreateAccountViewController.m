@@ -1,6 +1,4 @@
-//
-//  CreateAccountViewController.m
-//  Demo2ObjectiveDDP
+
 //
 //  Created by Victor Carreño on 7/16/14.
 //  Copyright (c) 2014 Victor Carreño. All rights reserved.
